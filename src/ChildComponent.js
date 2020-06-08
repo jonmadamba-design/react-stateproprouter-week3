@@ -12,7 +12,7 @@ export class ChildComponent extends Component {
             <div className="col col-md-6 text-center p-3" key={user.id}>
                 <div className="card">
                     <div className="card-header">
-                        <h3><Link to={"/user/" + user.id}> User Id: {user.id}</Link></h3>
+                        <h3><Link to={`user/${user.id}`}> User Id: {user.id}</Link></h3>
                     </div>
                     <div className="card-body">
                         <h5 className="card-title">User Info</h5>
